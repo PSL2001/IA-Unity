@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Este script es un ejemplo basico de movimiento usando como método una fuerza
+ * en este caso se utiliza para simular un salto
+ */
 public class Movement2 : MonoBehaviour
 {
     private Vector3 m;

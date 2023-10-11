@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Esta clase muestra el movimiento basico de un objeto usando "Transform"
+ */
 public class Movement1 : MonoBehaviour
 {
     private Vector3 m;
