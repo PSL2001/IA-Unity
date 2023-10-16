@@ -15,7 +15,11 @@ public class SemillaController : MonoBehaviour
 
     private void generateTree()
     {
-        Instantiate(tree, new Vector3(this.transform.position.x, 0, this.transform.position.z), Quaternion.identity);
+        int canGenerate = Random.Range(0, 2);
+        if (canGenerate == 1)
+        {
+            Instantiate(tree, new Vector3(this.transform.position.x, 0, this.transform.position.z), Quaternion.identity);
+        }
         Destroy(this.gameObject);
     }
 }
